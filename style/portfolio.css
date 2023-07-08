@@ -27,7 +27,7 @@ nav li {
   list-style: none;
   margin-right: 55px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
 }
 nav a {
   text-decoration: none;
@@ -44,8 +44,7 @@ nav a:hover {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
-.banner-right-photo {
-}
+
 .banner-h1 {
   font-size: 50px;
   color: #ededed;
@@ -89,9 +88,68 @@ nav a:hover {
   align-items: center;
 }
 .banner-left {
-  padding-left: 20px;
+  padding-left: 30px;
+  padding-top: 80px;
 }
 .banner-right-photo {
-  padding-right: 30px;
-  padding-top: 15px;
+  padding-right: 40px;
+  padding-top: 45px;
+  width: 450px;
+}
+.about-pc {
+  padding-left: 40px;
+  width: 400px;
+}
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/Second_page_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #ededed;
+}
+.about-right {
+  padding-left: 120px;
+  padding-right: 70px;
+}
+
+.about-heading {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: #ededed;
+}
+.about-para {
+  text-align: justify;
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+.about-heading2 {
+  font-size: 30px;
+  padding-bottom: 8px;
+  color: #00abf0;
+}
+
+.about-list > li {
+  text-align: justify;
+  font-size: 18px;
+  padding-bottom: 8px;
+  padding-left: 1.5em;
+}
+
+.about-list {
+  list-style: none;
+  position: relative;
+}
+
+.about-list li:before {
+  position: absolute;
+  content: "•";
+  color: #00abf0;
+  left: 0;
+}
+.resume {
+  text-align: center;
 }
