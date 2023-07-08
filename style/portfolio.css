@@ -239,13 +239,13 @@ textarea {
   border-radius: 5px;
   color: rgb(68, 65, 65);
   border: 0;
-  width: 60%;
+  width: 50%;
   margin: auto;
   margin-top: 15px;
 }
 .contact input[type="submit"] {
   display: block;
   margin: auto;
-  width: 63.4%;
+  width: 53.4%;
   margin-top: 15px;
 }
