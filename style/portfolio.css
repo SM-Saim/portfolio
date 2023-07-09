@@ -3,11 +3,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-/* font Style for All */
-/* body {
-  font-family: "Open Sans", sans-serif;
-} */
-/* nav bar style */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -100,7 +96,7 @@ nav a:hover {
 }
 .about-pc {
   padding-left: 50px;
-  width: 400px;
+  width: 450px;
 }
 .about-section {
   display: flex;
@@ -121,15 +117,15 @@ nav a:hover {
 }
 
 .about-heading {
-  font-size: 50px;
+  font-size: 45px;
   padding-bottom: 15px;
-  padding-top: 15px;
   color: #ededed;
 }
 .about-para {
   text-align: justify;
   font-size: 18px;
   padding-bottom: 12px;
+  line-height: 1.4;
 }
 .about-heading2 {
   font-size: 30px;
@@ -166,7 +162,7 @@ nav a:hover {
   min-height: 100vh;
   width: 100%;
   margin: auto;
-  padding-top: 18px;
+  padding-top: 10px;
 }
 .servies-h1 {
   text-align: center;
