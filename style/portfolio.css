@@ -90,7 +90,7 @@ nav a:hover {
   align-items: center;
 }
 .banner-left {
-  padding-left: 35px;
+  padding-left: 30px;
   padding-top: 80px;
 }
 .banner-right-photo {
@@ -210,7 +210,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 40px;
+  padding-top: 65px;
 }
 .contact-header {
   text-align: center;
