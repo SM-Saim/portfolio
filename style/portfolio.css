@@ -18,7 +18,7 @@ nav {
   color: #00abf0;
   font-size: 35px;
   font-weight: 800;
-  margin-left: 55px;
+  margin-left: 60px;
 }
 nav > ul {
   display: flex;
@@ -26,7 +26,7 @@ nav > ul {
 }
 nav li {
   list-style: none;
-  margin-right: 50px;
+  margin-right: 60px;
   font-size: 18px;
   font-weight: 500;
 }
