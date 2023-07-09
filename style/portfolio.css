@@ -167,8 +167,7 @@ nav a:hover {
 }
 .servies-h1 {
   text-align: center;
-  justify-content: center;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   padding-top: 60px;
   padding-bottom: 10px;
@@ -189,7 +188,7 @@ nav a:hover {
   margin-top: 10px;
 }
 .services-all {
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   margin: 30px;
   width: 200px;
@@ -210,14 +209,14 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 65px;
+  padding-top: 10px;
 }
 .contact-header {
   text-align: center;
   justify-content: center;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 60px;
+  padding-top: 65px;
   padding-bottom: 15px;
   color: #00abf0;
 }
