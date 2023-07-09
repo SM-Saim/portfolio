@@ -164,6 +164,8 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  width: 100%;
+  margin: auto;
 }
 .servies-h1 {
   text-align: center;
@@ -210,6 +212,8 @@ nav a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10px;
+  width: 100%;
+  margin: auto;
 }
 .contact-header {
   text-align: center;
