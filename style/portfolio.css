@@ -61,6 +61,8 @@ nav a:hover {
 .btn-anchor {
   text-decoration: none;
   display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .btn {
@@ -74,12 +76,28 @@ nav a:hover {
   font-size: 15px;
   border: 2px solid transparent;
 }
-
+.btn-inverse {
+  background-color: transparent;
+  color: #00abf0;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  border: 2px solid #00abf0;
+}
 .btn:hover {
   background-color: transparent;
   color: #00abf0;
   border: 2px solid #00abf0;
 }
+.btn-inverse:hover {
+  background-color: #00abf0;
+  color: black;
+  border: 2px solid transparent;
+}
+
 .banner-part {
   display: flex;
   justify-content: space-around;
@@ -92,11 +110,11 @@ nav a:hover {
 .banner-right-photo {
   padding-right: 40px;
   padding-top: 45px;
-  width: 450px;
+  width: 420px;
 }
 .about-pc {
   padding-left: 50px;
-  width: 450px;
+  width: 420px;
 }
 .about-section {
   display: flex;
@@ -113,7 +131,6 @@ nav a:hover {
 .about-right {
   padding-left: 125px;
   padding-right: 70px;
-  padding-top: 20px;
 }
 
 .about-heading {
@@ -154,23 +171,26 @@ nav a:hover {
 .resume {
   text-align: center;
 }
+
 .page3-services {
   background-image: url(../images/third_page_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 140vh;
   width: 100%;
   margin: auto;
   padding-top: 10px;
 }
 .servies-h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
   padding-top: 60px;
   padding-bottom: 10px;
+  margin-top: 30px;
 }
+
 .services-p {
   text-align: center;
   padding-left: 50px;
@@ -194,11 +214,39 @@ nav a:hover {
   height: 270px;
   background-color: #ededed;
   box-shadow: 0px 6px 50px #00acf049;
+  text-align: center;
 }
+
 .serviecs-all-p {
   text-align: justify;
   padding-top: 4px;
   color: rgb(68, 65, 65);
+}
+.skill-cart {
+  width: 80%;
+  margin: auto;
+  background-image: url(../images/lang_cart.png),
+    linear-gradient(rgba(21, 13, 121, 0.2), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -265px;
+  margin-bottom: 110px;
+  box-shadow: 0px 6px 50px #00acf049;
+}
+.skill-head {
+  padding-right: 10px;
+  color: #ededed;
+}
+.skills-logo img {
+  width: 100px;
+  padding: 5px;
 }
 .contact-detail {
   height: 100vh;
@@ -220,6 +268,7 @@ nav a:hover {
   padding-top: 65px;
   padding-bottom: 15px;
   color: #00abf0;
+  margin-top: 30px;
 }
 .contact-p {
   text-align: center;
