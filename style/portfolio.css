@@ -336,3 +336,154 @@ textarea {
 .footer-logo a img:focus {
   opacity: 0.7;
 }
+
+/* device responsive part */
+.hide {
+  display: none;
+}
+
+/* small device */
+@media screen and (max-width: 576px) {
+  .services {
+    flex-direction: column;
+    padding-bottom: 500px;
+  }
+  .servies-h1 {
+    padding-top: 45px;
+    margin-top: 0px;
+  }
+  .skill-cart {
+    flex-direction: column;
+    margin-top: -530px;
+  }
+
+  .contact-detail {
+    margin-top: -68px;
+  }
+  .contact-header {
+    padding-top: 25px;
+  }
+  .contact-p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px;
+  }
+  .contact-p .email a {
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .contact input[type="submit"] {
+    width: 57%;
+  }
+  .about-section {
+    padding: 15px;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .about-pc {
+    padding-left: 0px;
+    width: 370px;
+  }
+  .about-right {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .about-heading {
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+  .about-heading2 {
+    font-size: 35px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+  }
+
+  .services {
+    flex-direction: column;
+    padding-bottom: 550px;
+  }
+  .banner-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .banner-right-photo {
+    padding-right: 5px;
+    padding-top: 45px;
+    width: 350px;
+  }
+
+  .banner-left {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+
+  .banner-h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-right: 40px;
+  }
+
+  .banner-p {
+    padding-left: 40px;
+  }
+
+  .banner-h2 {
+    padding-left: 30px;
+  }
+
+  .btn-anchor {
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 40px;
+  }
+
+  .nav-logo {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: -5px;
+  }
+  nav li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .btn-anchor {
+    margin-right: 0px;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .btn {
+    margin-left: 35px;
+  }
+  .mobile {
+    margin-right: 40px;
+  }
+}
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 860px) {
+  .services {
+    flex-direction: column;
+    padding-bottom: 460px;
+  }
+  .skill-cart {
+    flex-direction: column;
+    margin-top: -400px;
+  }
+  .contact-detail {
+    margin-top: -34px;
+  }
+  .contact-p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contact input[type="submit"] {
+    width: 57%;
+  }
+}
